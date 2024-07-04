@@ -1,0 +1,78 @@
+
+    *{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*body{
+    background-image: url(../assets/std5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(20, 19, 16);
+}*/
+
+h1{
+    background-image: linear-gradient(to top, #480631, #820f7816);
+}
+
+.Registration-form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:550px;
+    opacity: 1.2;
+    border-style: solid;
+}
+.Registration-form h1{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:40px 20px;
+}
+.Registration-form p{
+    font-size: 20px;
+    margin:10px 0;
+    font-weight: bold;
+    margin-right:0 40px 0 20px; 
+
+}
+.Registration-form input{
+
+    font-size: 15px;
+    padding: 15px 10px;
+    width:80%;
+    border:0;
+    border-radius: 5px;
+    outline:none;
+    
+
+}
+.Registration-form button{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 5px 10px;
+    width:30%;
+    border:0;
+    border-radius: 5px;
+    background-color: rgb(209, 15, 161);
+}
+.Registration-form button:hover{
+    color:rgb(245, 244, 251);
+}
+.Registration-form input:hover{
+    color: rgb(134, 3, 99);
+}
+
+    
+
+body{
+    background-image: url(../assets/std5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(20, 19, 16);
+}
